@@ -1,0 +1,107 @@
+﻿Kursplanering för Nybörjarkurs: Gör ditt första spel i C# WinForms
+==================================================================
+
+Del 1 – Introduktion 
+----------------------------------
+Mål: Lärarintro, förstå upplägg/mål, installation.
+Agenda: Slides (mål, kursplan, spelidé), miljö/verktyg, Installera Visual Studio 2022 
+Community, .NET 8 Desktop Development-workload, Git/GitHub. Skapa tomt WinForms-projekt
+Förberedelse till nästa del (2): Läs om Windows Forms och game loop och hur
+det funkar.
+
+Del 2 – Ytan (WinForms-fönster + game loop)
+-------------------------------------------
+Mål: Få ett fönster och en loop som ritar varje frame.
+Agenda: Form, ClientSize, DoubleBuffered, Timer.Tick -> Invalidate(), OnPaint.
+Förberedelse till nästa del (3): Läs om att rita i WinForms (Graphics,
+Rectangle) och hur det funkar.
+
+Del 3 – Player (rita & rörelse)
+-------------------------------
+Mål: Rita spelaren och styra med vänster/höger.
+Agenda: Spelar-rect, rita triangel, KeyDown/KeyUp, clamp inom skärmen.
+(Före checkpoint – ingen förberedelse.)
+
+Del 4 – Checkpoint (2–3)
+------------------------
+Mål: Säkerställa att yta + player fungerar stabilt.
+Agenda: Kolla att alla är klara med del 2–3; hjälp de som behöver.
+Förberedelse till nästa del (5): Läs om listor i C# (List<T>) och hur det
+funkar.
+
+Del 5 – Skott (skapa & skjuta)
+------------------------------
+Mål: Skapa kulor och avfyra med Space.
+Agenda: List<Rectangle> bullets; skapa vid Space; rörelse uppåt.
+Förberedelse till nästa del (6): Läs om kollision (Rectangle.IntersectsWith)
+och hur det funkar.
+
+Del 6 – Rensa kulor + enkel kollision
+-------------------------------------
+Mål: Ta bort off-screen, träffa mål.
+Agenda: Ta bort bullets när Bottom < 0; enkel kollision mot mål-yta.
+(Före checkpoint – ingen förberedelse.)
+
+Del 7 – Checkpoint (5–6)
+------------------------
+Mål: Verifiera skottflöde + kollisioner.
+Agenda: Kolla att alla är klara med del 5–6; hjälp de som behöver.
+Förberedelse till nästa del (8): Läs om nästlade loopar och 2D-grid och hur
+det funkar.
+
+Del 8 – Fiender (grid)
+----------------------
+Mål: Skapa fiender i ett rutnät.
+Agenda: Generera rader/kolumner med loopar; lagra i List<Rectangle>.
+Förberedelse till nästa del (9): Läs om hur man hittar min/max i listor och
+hur det funkar.
+
+Del 9 – Fiender: rörelse (sidled + nedsteg)
+-------------------------------------------
+Mål: Klassisk "Space Invaders"-rörelse.
+Agenda: Hitta min/max X; vänd i kant; steg nedåt; uppdatera varje tick.
+(Före checkpoint – ingen förberedelse.)
+
+Del 10 – Checkpoint (8–9)
+-------------------------
+Mål: Säkerställa fiender + rörelse ihop med skott.
+Agenda: Kolla att alla är klara med del 8–9; hjälp de som behöver.
+Förberedelse till nästa del (11): Läs om enum och switch och hur det funkar.
+
+Del 11 – Game states & Game Over
+--------------------------------
+Mål: Hantera lägen och avslut.
+Agenda: enum { Menu, Playing, GameOver }; byten; stoppa vid träff/tid.
+Förberedelse till nästa del (12): Läs om nivåprogression och hur man
+nollställer värden mellan nivåer.
+
+Del 12 – Level progression (svårare per nivå)
+---------------------------------------------
+Mål: Göra spelet gradvis svårare.
+Agenda: Öka svårighet per nivå (speed/antal); återställ runda.
+Förberedelse till nästa del (13): Läs om skotttyper och cooldown och hur
+det funkar.
+
+Del 13 – Skotttyper & Loadout
+-----------------------------
+Mål: Flera vapenmönster + val inför runda.
+Agenda: enum ShotType; metoder för mönster; enkel Loadout-skärm.
+Förberedelse till nästa del (14): Läs om Dictionary i C# och hur det
+funkar.
+
+Del 14 – Shop & Coins
+---------------------
+Mål: Enkel ekonomi och upplåsning.
+Agenda: Coins vid kills; pris-tabell (Dictionary); köp + equip; visa i
+HUD/Shop.
+
+Del 15 – Checkpoint (11–14)
+---------------------------
+Mål: Helhetstest av states, nivåer, vapen och shop.
+Agenda: Kolla att alla är klara med del 11–14; hjälp de som behöver; spela
+igenom hela flödet; städa kod.
+
+Del 16 – Showcase & nästa steg
+------------------------------
+Mål: Avslut och inspiration.
+Agenda: Visa upp spelet vi byggt; deltagare får visa egna sidoprojekt.

@@ -1,0 +1,71 @@
+﻿Kursbeskrivning – Bygg ditt första spel i C# (Windows Forms)
+
+Titel:
+Bygg ditt första spel i C# (Windows Forms)
+
+Kort beskrivning (katalog):
+Lär dig grunderna i C# genom att bygga ett enkelt skjutspel i Windows
+Forms. Steg för steg, utan krav på förkunskaper.
+
+Lång beskrivning:
+I den här nybörjarkursen bygger vi tillsammans ett enkelt men komplett
+skjutspel i C# med Windows Forms. Du får en pedagogisk genomgång av
+grundläggande programmering samtidigt som du ser hur ett spel sätts
+ihop: spel-loop, styrning, skott, fiender, nivåer och enklare menyer.
+Ledaren visar färdig kod och förklarar varje steg – fokus ligger på att
+förstå, inte att koda live.
+
+Målgrupp:
+Nybörjare som vill komma igång med programmering/spelutveckling i lugn
+takt samt dig som redan kan grunderna i C# och vill fördjupa eller vässa
+dina kunskaper genom att bygga ett komplett litet spel (strukturera kod,
+jobba med events/Timer, kollisionslogik och enkel state-hantering).
+Kursen passar också dig som vill komma igång igen.
+
+Förkunskaper:
+Ingen tidigare programmering krävs. Grundläggande datorvana räcker.
+
+Detta lär du dig:
+- C#-grunder: variabler, villkor, loopar, listor, metoder
+- Windows Forms: rita/uppdatera på skärmen, events (t.ex. tangentbord)
+- Spelmekanik: spel-loop (Timer), styrning, skott, kollisioner, nivåer
+- Enkla menyer, vapenval (loadout) och (bonus) shop/coins
+
+Upplägg:
+16 träffar (2 timmar per pass). Varje gång: korta slides → genomgång av
+färdig kod → enkel förberedelse till nästa träff (små “kolla upp”-
+uppgifter). Ingen livekodning krävs. Allt material delas via GitHub.
+
+Lektionsmall (2 timmar)
+0:00–0:30 – Dagens upplägg
+- Vad vi ska bygga idag (målet).
+- Kort om vilka delar/begrepp vi använder.
+- Snabb titt på var i projektet vi jobbar.
+
+0:30–1:20 – Visa koden
+- Steg 1 → visa och förklara.
+- Kör och testa så alla ser vad som hände.
+
+1:20–1:30 – Rast
+
+1:30–2:00 – Inför nästa del
+- Vad ni ska läsa om till nästa gång.
+- 2–3 superenkla uppgifter att testa hemma.
+
+Mål:
+Att du ska förstå spelens byggstenar i C# och känna dig trygg att
+fortsätta på egen hand efter kursen.
+
+Programvara/teknik:
+- Visual Studio 2022 (Community)
+- .NET 8 (Desktop Development-workload)
+- GitHub (för material och kodexempel)
+
+Kursledare:
+Delzar Kafashi
+
+Plats & tid:
+[Ange lokal], [dag/tid], [startdatum] – [antal veckor]
+
+Kontakt & anmälan:
+[Studieförbundets kontakt/URL]
